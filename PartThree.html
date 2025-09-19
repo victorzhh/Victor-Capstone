@@ -2,74 +2,72 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Basics Part Two</title>
+    <title>Basics Part Three</title>
 </head>
 <body>
-<!-- HEADERS -->
-    <h1> This is a Heading 1</h1>
-    <p>this is a paragraph</p>
-
-    <h2>This is a Heading 2</h2><h4>Headings are blocks that display on their own line</h4>
-<!-- Experiment what - what is the smallest heading number? What happens if you try <h100> which is clearly not a real thing? -->
-    <!--The heading number that makes the smallest text is 6-->
-    <h6>Hello</h6>
-
-    <!--<h100> makes the text the same as if there were no tags at all-->
-    <h100>Whats up</h100>
-
-<!-- Check out how this part looks in the browser or preview -->
-<p>This is a bunch of untagged text</p>
-
-<p>Because            it is untagged there won't be any separation</p>
+    <h1>HI EVERYBODY</h1>
 
 
+<!-- ORDERED LISTS-->
+<!-- These are "in order" they are numbered -->
+    <ol>
+        <li>I LOVE SLOTHS</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+<!-- notice how you need 2 tags, the ol tag and the li tag -->
+<!-- Experiment! Delete the ol tag to see what it does specifically -->
+
+    <!--Deleting the ol tag makes the list unordered(bullet points)-->
+
+<!-- Then delete the li opening / closing tags to see what that does specifically -->
+
+    <!--Deleting the li tags makes the text like if it had no tags-->
+
+<!-- UNORDERED LISTS -->
+<!-- These are just bullet points, and the ul and li tags work just the same -->
+    <ul>
+        <li>Some item</li>
+        <li>Some other item</li>
+        <li>Third bullet point</li>
+    </ul>
 
 
+<!-- NESTED LISTS!!! -->
+    <ol>
+        <li>Item One</li>
+        <li>Item Two</li>
+            <ul>
+                <li>I'm nested inside</li>
+                <li>Also nested!</li>
+                    <ol>
+                        <li>Woah! <strong>Really nested!</strong></li>
+                    </ol>
+            </ul>
+    </ol>
 
 
-
-
-<p>Even if I put a space above this.</p>
-
-
-<p>You see what I mean?</p>
-<p>This is all a continuous paragraph.</p>
-
-
-<!-- P TAGS! -->
-    <p>With paragraph tags I can create separation</p>
-    <p> Next paragraph please!</p>
-<!-- Go back and add some <p> and </p> tags to break up the preceeding text -->
-<!-- Experiment! What happens if you use just an opening tag, or just a closing tag? -->
-    <!--If you only use an opening or a closing tag, it is as if no tags were used at all-->
-    <!--It also apparently creates an error in the website and does not get display but it's not like that in the preview-->
-    <p>hello 
-    how is it going
-
-
-<!-- IN-LINE TAGS-->
-    <p>New semantics: <strong>strong</strong> <em>emphasized</em></p>
-<!-- Can you figure out how to make something bold AND italicized? -->
-        <!--Use <em> </em> and <strong> </strong>-->
-        <em><strong><p>Sup</p></strong></em>
-
-<!-- LOREM -->
-<!-- Use lorem+Tab or lorem+Enter to quickly get filler text! Try it out-->
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione, accusantium ab voluptatem molestias, ducimus exercitationem fugit commodi accusamus facere quisquam soluta nostrum magnam vel cupiditate amet consectetur veritatis necessitatibus?
-
-<!-- OTHER TAGS -->
-<!-- Link for all the elements/tags, look through them and experiment with 3 new tags! -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element -->
-
-        <!--<mark>(highlight), <q>(quotation marks), and <code>(shows it is code)-->
-    
-    <p><mark>hey</mark></p>
-
-    <p><q>hey</q></p>
-
-    <p><code>hey</code></p>
-
-
-
+<!-- YOUR TURN! -->
+<!-- Make a nested list that has bullet points with numbered subtasks under each one! -->
+    <ul>
+        <li>Top 3 Animals:</li>
+            <ol>
+                <li>Dogs</li>
+                <li>Cats</li>
+                <li>Birds</li>
+            </ol>
+        <li>Top 3 Fruits:</li>
+            <ol>
+                <li>Grapes</li>
+                <li>Strawberries</li>
+                <li>Apples</li>    
+            </ol>
+        <li>Top 3 Numbers:</li>
+            <ol>
+                <li>6</li>
+                <li>7</li>
+                <li>3</li>    
+            </ol>
+    </ul>
 </body>
 </html>
